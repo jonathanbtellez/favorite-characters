@@ -8,7 +8,7 @@ export const Profile = (props) => {
       <div className="profile-image-container">
         <img
           className="profile-image"
-          src={`../src/assets/img/profile-${props.name}.png`}
+          src={`../src/assets/img/profile-${props.img}.png`}
           alt={`Image of ${props.zoro}`}
         />
       </div>
